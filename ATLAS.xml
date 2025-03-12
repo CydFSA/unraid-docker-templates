@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>ATLAS</Name>
-  <Repository>ich777/steamcmd:atlas</Repository>
-  <Registry>https://hub.docker.com/r/ich777/steamcmd2/</Registry>
+  <Repository>cydfsa/steamcmd:atlas</Repository>
+  <Registry>https://hub.docker.com/r/cydfsa/steamcmd/</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.unraid.net/topic/79530-support-ich777-gameserver-dockers/</Support>
+  <Support></Support>
   <Project>https://www.steampowered.com/</Project>
   <Overview>This Docker will download and install SteamCMD. It will also install ATLAS and run it (this docker does also have a built in Redis server for quick server setup, you also can disable it in the variables below).&#xD;
 &#xD;
@@ -19,12 +19,12 @@ You can also run multiple servers with only one SteamCMD directory!</Overview>
   <Category>GameServers:</Category>
   <WebUI/>
   <TemplateURL/>
-  <Icon>https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/images/atlas.png</Icon>
+  <Icon>https://raw.githubusercontent.com/CydFSA/unraid-docker-templates/main/images/atlas.png</Icon>
   <ExtraParams>--restart=unless-stopped</ExtraParams>
   <PostArgs/>
   <CPUset/>
   <DateInstalled/>
-  <DonateText>If you like my work please </DonateText>
+  <DonateText>If you like ich777s work please send him chips </DonateText>
   <DonateLink>https://www.paypal.me/chips777</DonateLink>
   <Description>This Docker will download and install SteamCMD. It will also install ATLAS and run it (this docker does also have a built in Redis server for quick server setup, you also can disable it in the variables below).&#xD;
 &#xD;
